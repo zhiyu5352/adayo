@@ -1,9 +1,12 @@
-repositories {
-  maven {
-    url 'https://swjfrog151.adayoge.com:8082/artifactory/sync-maven-prod-local/'
+buildscript {
+  repositories {
+    google()
+    mavenCentral()
+    maven {
+      url 'https://swjfrog151.adayoge.com:8082/artifactory/sync-maven-prod-local/'
+    }
   }
 }
-
 dependencies {
   implementation 'com.adayo.ui:uix:0.99.2'
 }
