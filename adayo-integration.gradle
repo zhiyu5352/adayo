@@ -3,6 +3,10 @@ buildscript {
     google()
     mavenCentral()
     maven {
+      credentials{
+        username 'yiwen.huan'
+        password 'NdO7Av28*'
+      }
       url 'https://swjfrog151.adayoge.com:8082/artifactory/sync-maven-prod-local/'
     }
   }
