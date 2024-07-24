@@ -1,16 +1,3 @@
-buildscript {
-  repositories {
-    google()
-    mavenCentral()
-    maven {
-      credentials{
-        username 'yiwen.huan'
-        password 'NdO7Av28*'
-      }
-      url 'https://swjfrog151.adayoge.com:8082/artifactory/sync-maven-prod-local/'
-    }
-  }
-}
 dependencies {
   implementation 'com.adayo.ui:uix:0.99.2'
 }
